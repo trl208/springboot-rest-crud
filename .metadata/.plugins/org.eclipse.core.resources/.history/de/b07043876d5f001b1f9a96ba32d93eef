@@ -1,0 +1,49 @@
+package com.example.priority.model;
+import javax.persistence.Column;  
+import javax.persistence.Entity;  
+import javax.persistence.Id;  
+import javax.persistence.Table;  
+
+@Entity
+@Table
+
+public class PriorityAreas {
+	
+	@Id
+	private int priorityId;
+	@Column
+	private String connection;
+	@Column
+	private String relationships;
+	@Column
+	private String career;
+	@Column
+	private String wealth;
+	public String getConnection() {
+		return connection;
+	}
+	public void setConnection(String connection) {
+		this.connection = connection;
+	}
+	public String getRelationships() {
+		return relationships;
+	}
+	public void setRelationships(String relationships) {
+		this.relationships = relationships;
+	}
+	public String getCareer() {
+		return career;
+	}
+	public void setCareer(String career) {
+		this.career = career;
+	}
+	public String getWealth() {
+		return wealth;
+	}
+	public void setWealth(String wealth) {
+		this.wealth = wealth;
+	}
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package com.example.priority.repository;
+
+import org.springframework.data.repository.CrudRepository; 
+import com.example.priority.model.PriorityAreas;
+
+public class PriorityAreasRepository {
+
+	public Iterable<PriorityAreas> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
