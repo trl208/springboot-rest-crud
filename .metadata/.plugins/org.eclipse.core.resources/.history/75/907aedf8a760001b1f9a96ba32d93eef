@@ -1,0 +1,5 @@
+package com.example.priority.service;
+
+public class UsersPriorityRatingsService {
+
+}

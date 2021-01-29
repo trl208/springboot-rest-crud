@@ -1,0 +1,20 @@
+package com.example.priority.service;
+
+import java.util.List;
+
+import com.example.priority.model.UsersPriorityRatings;
+
+public class UsersPriorityRatingsService {
+
+	
+	public static void saveOrUpdate(UsersPriorityRatings usersPriorityRatings) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static List<UsersPriorityRatings> getAllUsersPriorityRatings() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

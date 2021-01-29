@@ -14,10 +14,12 @@ public class PriorityAreasService {
 
 	@Autowired  
 	PriorityAreasRepository priorityAreasRepository;  
-	//getting all books record by using the method findaAll() of CrudRepository  
+	//getting all priority areass record by using the method findaAll() of CrudRepository  
 	public List<PriorityAreas> getAllPriorityAreas() {
+		
 		List<PriorityAreas> priorityAreas = new ArrayList<PriorityAreas>();  
 		priorityAreasRepository.findAll().forEach(priorityAreas1 -> priorityAreas.add((PriorityAreas) priorityAreas1));  
+		
 		return priorityAreas;  
 	}
 
